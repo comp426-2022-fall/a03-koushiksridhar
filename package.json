@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "COMP426 A3",
   "main": "./lib/roll.js",
+  "type": "module",
   "scripts": {
     "test": "./lib/roll.js/roll(6,2,10)"
   },
@@ -11,13 +12,19 @@
     "type": "git",
     "url": "git+https://github.com/comp426-2022-fall/a03-koushiksridhar.git"
   },
-  "author": "",
+  "author": "koushiksridhar",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/comp426-2022-fall/a03-koushiksridhar/issues"
   },
   "homepage": "https://github.com/comp426-2022-fall/a03-koushiksridhar#readme",
+  "bin": {
+    "roll-dice": "bin/cli.js"
+  },
   "dependencies": {
     "minimist": "^1.2.7"
+  },
+  "directories": {
+    "lib": "lib"
   }
 }
